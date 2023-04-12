@@ -1,0 +1,481 @@
+body{
+	background-image: url(1.jpg);
+	width: 100%;
+	height: 100vh;
+	overflow-x:hidden;
+	background-attachment: fixed;
+}
+a{
+	text-decoration: none;
+	color: darkblue;
+}
+.list li a:hover{
+	border-top: 2px solid darkblue;
+	padding-top: 10px;
+}
+
+.logo{
+	width: 300px;
+	height: 150px;
+	border: 3px solid white;
+	background-color: rgba(162, 197, 216, 0.6);
+	margin-top: 30px;
+	margin-left: 50px;
+	color: white;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+}
+.row img{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.row h2{
+	padding: 10px;
+}
+.logo p{
+	display: flex;
+	font-size: 18px;
+	align-items: center;
+	justify-content: center;
+}
+.menu{
+	width: 1000px;
+	height: 90px;
+	background-color: rgba(162, 197, 216, 0.6);
+	border: 2px solid white;
+	margin-top: 50px;
+	margin-left: 40px;
+
+}
+.kvadrat{
+	width: 20px;
+	height: 20px;
+	background-color: darkblue;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+}
+.kvadrat-first{
+	left: 35px;
+	display: none;
+}
+.kvadrat-second{
+	left: 250px;
+	display: none;
+}
+.kvadrat-third{
+	display: none;
+	left: 470px;
+}
+.kvadrat-four{
+	display: none;
+	left: 690px;
+}
+.kvadrat-five{
+	display: none;
+	left: 930px;
+}
+.list li:hover .kvadrat-first{
+	display: block;
+}
+.list li:hover .kvadrat-second{
+	display: block;
+}
+.list li:hover .kvadrat-third{
+	display: block;
+}
+.list li:hover .kvadrat-four{
+	display: block;
+}
+.list li:hover .kvadrat-five{
+	display: block;
+}
+.list{
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+	justify-content: space-between;
+	color: white;
+	padding: 20px;
+	list-style-type: none;
+	position: relative;
+}
+.all1{
+	display: flex;
+	flex-direction: row;
+}
+.all2{
+	display: flex;
+	flex-direction: column;
+}
+.ekskurs {
+	color: white;
+	margin: 100px;
+	width: fit-content;
+	font-size: 30px;
+}
+.linia1{
+	width: 500px;
+	height: 2px;
+	background-color: white;
+	margin-left: 150px;
+}
+.tour{
+	font-size: 30px;
+	color: white;
+	margin-left: 150px;
+}
+button{
+	width: 100px;
+	height: 50px;
+	background-color: white;
+	margin-left: 200px;
+	margin-top: 50px;
+	border-radius: 10px;
+	border: 2px solid darkblue;
+
+}
+button:hover{
+	background-color: skyblue;
+	cursor: pointer;
+}
+
+.all{
+	display: flex;
+	flex-direction: row;
+}
+.app{
+	width: 300px;
+	height: 550px;
+	margin-top: 100px;
+	margin-left: 300px;
+	border-radius: 20px;
+	background-color: whitesmoke;
+	background-color: rgba(162, 197, 216, 0.6);
+	border: 2px solid darkblue;
+}
+.otdih{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.zapros,
+.cena,
+.document{
+	display: flex;
+	flex-direction: row;
+	width: 280px;
+	height: 100px;
+	margin-top: 50px;
+	border-radius: 15px;
+	background-color: pink;
+	margin-left: 10px;
+}
+.cena{
+	/*height: 150px;*/
+	background-color: skyblue;
+}
+.fa-bars,
+.fa-earth-americas,
+.fa-coins,
+.fa-folder-open{
+	font-size: 30px;
+	color: darkblue;
+	padding: 20px;
+}
+h5{
+	font-size: 16px;
+	color: darkblue;
+}
+.block1,
+.block2,
+.block3{
+	width: 300px;
+	height: 400px;
+	background-color: white;
+	background-color: rgba(162, 197, 216, 0.9);
+	margin: 100px;
+	border-radius: 20px;
+}
+.block1 img{
+	width: 150px;
+	height: 150px;
+	margin-left: 75px;
+}
+.block1 p{
+	font-size: 20px;
+	color: darkblue;
+	text-align: center;
+}
+.block2 img{
+	width: 120px;
+	height: 120px;
+	margin-left: 75px;
+	object-fit: cover;
+	margin-top: 40px;
+}
+.block2 p{
+	font-size: 20px;
+	color: darkblue;
+	text-align: center;
+}
+.block3 img{
+	width: 170px;
+	height: 120px;
+	margin-left: 75px;
+	object-fit: cover;
+	margin-top: 40px;
+}
+.block3 p{
+	font-size: 20px;
+	color: darkblue;
+	text-align: center;
+}
+.all3{
+	display: flex;
+	flex-direction: row;
+}
+.end img{
+	width: 500px;
+	height: 300px;
+	object-fit: cover;
+	margin-left: 150px;
+	border: 3px solid white;
+}
+
+.forma{
+	width: 500px;
+	height: 300px;
+	margin-left: 100px;
+	border: 3px solid white;
+	padding-left: 30px;
+	background-color: rgba(162, 197, 216, 0.9);
+}
+.forma input{
+	width: 150px;
+	height: 30px;
+}
+.forma p{
+	font-size: 20px;
+	color: darkblue;
+}
+.forma h3{
+	color: darkblue;
+}
+.formular{
+	display: flex;
+	flex-direction: row;
+
+}
+/*____________________index1.html____________*/
+.recom h1{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.linia2{
+	width: 500px;
+	height: 1px;
+	background-color: white;
+	margin: auto;
+}
+.egypt,
+.turkey,
+.greece{
+	width: 400px;
+	margin: 50px;
+	background-color: rgba(23, 25, 42, 0.8);
+}
+.egypt{
+	height: 500px;
+}
+.egypt img,
+.turkey img,
+.greece img{
+	width: 100px;
+	height: 100px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.text1,
+.text2,
+.text3{
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding: 20px;
+}
+.turkey{
+	height: 600px;
+}
+
+.greece{
+	height: 700px;
+}
+.predlog{
+	display: flex;
+	flex-direction: row;
+}
+.plan{
+	width: 650px;
+	height: 200px;
+	background-color: rgba(23, 25, 42, 0.8);
+	margin: auto;
+	color: white;
+}
+.plan h1{
+	padding: 30px;
+}
+.plan p{
+	text-align: center;
+	font-size: 20px;
+}
+.visa,
+.bron,
+.reg,
+.taxi{
+	display: flex;
+	flex-direction: row;
+	width: 550px;
+	height: 250px;
+	background-color: rgba(195, 216, 230, 0.8);
+}
+.taxi img,
+.bron img,
+.reg img,
+.visa img{
+	width: 100px;
+	height: 100px;
+	margin-left: 30px;
+	margin-top: 70px;
+}
+.help{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 80%;
+	gap: 50px;
+	justify-content: center;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.taxi p,
+.bron p,
+.reg p,
+.visa p{
+	font-size: 16px;
+	color: darkblue;
+	text-align: center;
+	padding: 30px;
+}
+.travel p{
+	font-size: 18px;
+	color: white;
+	margin: 50px;
+	text-align: center;
+}
+/*html2_____________*/
+
+
+.recom1 h1{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+}
+.hotel{
+	width: 80%;
+	height: 100vh;
+	background-image: url(nomer.jpg);
+	margin-top: 200px;
+	margin-left: 150px;
+	background-attachment: fixed;
+}
+.photo{
+	width: 80%;
+	height: 200px;
+	background-color: rgba(23, 25, 42, 0.8);
+	position: absolute;
+	top: 600px;
+}
+.photo h2{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding: 20px;
+}
+.photo p{
+	font-size: 22px;
+	color: white;
+	margin: 50px;
+	text-align: center;
+}
+.hotel1{
+	width: 90%;
+	height: 300px;
+	background-color: rgba(23, 25, 42, 0.8);
+	margin: auto;
+}
+.hotel1 p{
+	ont-size: 22px;
+	color: white;
+	text-align: center;
+	padding: 30px;
+}
+.otel{
+	width: 400px;
+	height: 150px;
+	background-color: rgba(23, 25, 42, 0.8);
+	margin-top: 20px;
+	margin-left: 100px;
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	padding-left: 20px;
+
+}
+.otel img{
+	width: 70px;
+	height: 70px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.Maritim:hover{
+	border: 3px solid white;
+	cursor: pointer;
+}
+.Akka:hover{
+	border: 3px solid white;
+	cursor: pointer;
+}
+.Jaz:hover{
+	border: 3px solid white;
+	cursor: pointer;
+}
+.gostin{
+	display: flex;
+	flex-direction: row;
+	margin: 50px auto;
+}
+.nomera{
+	width: 700px;
+	height: 430px;
+	background-color: rgba(23, 25, 42, 0.8);
+	display: none;
+	color: white;
+	font-size: 22px;
+	padding: 30px;
+	margin-top: 30px;
+	margin-left: 70px;
+}
+.nomera.activ{
+	background-color: rgba(23, 25, 42, 0.8);
+	display: block;
+}
+
